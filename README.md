@@ -6,7 +6,7 @@
 ##Среды и окружение:
 для работы необходимо установить 
 
-- [WSL](phttps://learn.microsoft.com/en-us/windows/wsl/install?utm_source=chatgpt.com)
+- [WSL](phttps://learn.microsoft.com/en-us/windows/wsl/install?utm_source=chatgpt.com/)
 - [Docker](https://docs.docker.com/get-docker/)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/) 
 - [kind](https://kind.sigs.k8s.io/) 
@@ -25,10 +25,10 @@
 - cd release-platform
 
 3. Создание локального кластера kind
-kind create cluster --name demo --config kind.yaml
+- kind create cluster --name demo --config kind.yaml
 
 4. Установка podinfo через Helm
-helm --upgrade --install ./helm/podinfo -n demo --create-namespace
+- helm --upgrade --install ./helm/podinfo -n demo --create-namespace
 
 5. Проброс порта для доступа
-kubectl -n demo port-foward svc/podinfo 8080:9898	
+- kubectl -n demo port-foward svc/podinfo 8080:9898	
