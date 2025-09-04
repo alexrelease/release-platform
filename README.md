@@ -6,7 +6,7 @@
 ##Среды и окружение:
 для работы необходимо установить 
 
-- [WSL](phttps://learn.microsoft.com/en-us/windows/wsl/install?utm_source=chatgpt.com/)
+- [WSL](https://learn.microsoft.com/en-us/windows/wsl/install?utm_source=chatgpt.com/)
 - [Docker](https://docs.docker.com/get-docker/)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/) 
 - [kind](https://kind.sigs.k8s.io/) 
